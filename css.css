@@ -1,0 +1,87 @@
+body{
+    background-color:#f0f2f5 !important ;
+    font-family: arial,sans-serif;
+    margin:0;
+    box-sizing: border-box;
+   
+    width:100%;
+}
+.first-menu{
+    display:flex;
+    background-color:white;
+    box-shadow:0 4px 4px 0 rgba(0,0,0,0.1);
+    padding:10px 15px;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-between;
+   
+    
+  }
+  .first-item{
+    display:flex;
+    flex:15%;
+    align-items:center;
+  }
+  #left:hover{
+    color:#555 !important;
+  }
+  @media screen and (max-width:750px)
+  {
+    #input{
+      display:none;
+    }
+  }
+  .second-menu{
+    
+    display:flex;
+    flex:30%;
+    align-items:center;
+   
+  }
+  .menu-center{
+    list-style:none;
+    margin-bottom:0;
+   
+  }
+  .menu-center-item{
+  
+    padding:0px 30px;
+    border-radius:10px;
+    float:left;
+    
+  }
+  .menu-center-item:hover{
+    background-color:rgba(0,0,0,0.2);
+  }
+  .third-menu{
+    flex:10%;
+    align-items:center;
+  }
+  .menu-last-item{
+    padding:3px;
+    border-radius:20px;
+    float:left;
+  }
+  
+  .menu-last-item:hover{
+    background-color:#eee;
+  }
+  .menu-last-item1{
+    float:left; 
+    margin-top:5px;
+    margin-left:10px;
+  }
+  .link-last-item{
+    padding:12px;
+    background-color:#ddd;
+    border-radius:22px;
+  }
+  .link-last-item:hover{
+    background-color:#aaa;
+  }
+  @media screen and (max-width:760px)
+  {
+      .third-menu{
+          display:none;
+      }
+  }
